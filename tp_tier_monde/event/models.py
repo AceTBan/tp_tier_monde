@@ -21,7 +21,7 @@ class EventType(models.Model):
     name_type = models.CharField(max_length=50)
 
     def __str__(self):
-        return self.name_type
+        return self.name_type 
 
 class HallCategory(models.Model):
     hall_category = models.CharField(max_length=50)
